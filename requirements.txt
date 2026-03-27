@@ -1,0 +1,14 @@
+# Voxtral TTS + STT — Apple Silicon (MLX)
+# TTS : génération vocale locale
+mlx-audio
+
+# STT : transcription audio
+mlx-voxtral
+git+https://github.com/huggingface/transformers
+
+# Audio manipulation
+soundfile
+numpy
+
+# Tests
+pytest
